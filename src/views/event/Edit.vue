@@ -1,4 +1,4 @@
-// eslint-disable-next-line vue/multi-word-component-names
+<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 defineProps(['event'])
 </script>
