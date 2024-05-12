@@ -24,6 +24,7 @@ onMounted(() => {
         events.value = response.data
         totalEvents.value = response.headers['x-total-count']
       })
+      // eslint-disable-next-line no-unused-vars
       .catch((error) => {
         router.push({
           name: 'NetworkError',
